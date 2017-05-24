@@ -46,7 +46,7 @@ https://jwt.io/introduction/
     }
   ]
  
- # NODEJS BASIC LIBRARIES
+# NODEJS BASIC LIBRARIES
   const express = require('express');
   const app = express();
   
@@ -77,7 +77,7 @@ app.post('/login', function (req, res) {
             userName: user.userName
         }, SECRET);
         res.status(200).send({
-            message: `${user.userName} is now logged in.`,
+            message:  `${user.userName} is now logged in.`,
             userType: `${user.isAdmin ? 'Admin' : 'Normal'}`,
             token: mmyToken
         });
