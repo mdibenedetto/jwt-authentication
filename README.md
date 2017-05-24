@@ -45,10 +45,8 @@ https://jwt.io/introduction/
       "available": true
     }
   ]
-    
-# DESCRIPTION   
-# DEPENDENCY LIBRARY
-# BASIC LIBRARIES
+ 
+ # NODEJS BASIC LIBRARIES
   const express = require('express');
   const app = express();
   
@@ -87,5 +85,5 @@ app.post('/login', function (req, res) {
 ....
 }
 
-- This is the basic setup and cose you need to use JWT. I a client scenario you use save the token in the local storage (or any other approach to do client store) and use it for your  http requests.
+- This is the basic setup and cose you need to use JWT. I a client scenario you use save the token in the local storage (or any other approach to do client store)
      
