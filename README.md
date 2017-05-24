@@ -4,12 +4,12 @@ JWT Authentication with NodeJS
 This is a siple example which explains how to use the JWT, the example was  built  following the tutorial in:
 https://jwt.io/introduction/
 
-#START UP
+# START UP
 - Open a command line inside the project folder
 - RUN "npm install"
 - RUN "node server" 
 
-#TEST
+# TEST
 - Download Postman which helps to make http request (this optional since you can use any other tool or  use your own client to make request)
 - in Postman:
   - URL: http://localhost:3000/api/prods
@@ -46,13 +46,13 @@ https://jwt.io/introduction/
     }
   ]
     
-#DESCRIPTION   
-#DEPENDENCY LIBRARY
-#BASIC LIBRARIES
+# DESCRIPTION   
+# DEPENDENCY LIBRARY
+# BASIC LIBRARIES
   const express = require('express');
   const app = express();
   
-#JWT LIBRARIES FOR "EXPRESS"
+# JWT LIBRARIES FOR "EXPRESS"
   const bodyParser = require('body-parser');
   const expressJWT = require('express-jwt');
   const jwt = require('jsonwebtoken');
@@ -87,5 +87,5 @@ app.post('/login', function (req, res) {
 ....
 }
 
-- THAT'S IS WHAT YOU BASICALLY NEED TO MAKE USE JWT, I AM LEARNING ABOUT THAT, HOPE THIS EXAMPLE CAN HELP ANYONE
+- This is the basic setup and cose you need to use JWT. I a client scenario you use save the token in the local storage (or any other approach to do client store) and use it for your  http requests.
      
