@@ -1,8 +1,8 @@
 # jwt-authentication
 JWT Authentication with NodeJS
 
-This is a siple example which explains how to use the JWT, the example was  built  following the tutorial in:
-https://jwt.io/introduction/
+This is a simple example which explains how to use the JWT, the example was  built  following the tutorial in:
+> https://jwt.io/introduction/
 
 # START UP
 - Open a command line inside the project folder
