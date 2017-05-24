@@ -35,9 +35,8 @@ https://jwt.io/introduction/
       ex:
       Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImFkbWluIiwiaWF0IjoxNDk1NjM2NDUxfQ.CrnjTx_v2wFKd0dyQ2xi3Iin2RQ63nJczDdCcjGTr1w 
   - you should get the response
-    ```
-    [
-    {
+ ```
+    [{
       "title": "prod-1",
       "desc": "prod-desc-1",
       "available": false
@@ -46,14 +45,14 @@ https://jwt.io/introduction/
       "title": "prod-1",
       "desc": "prod-desc-2",
       "available": true
-    }
-  ] 
-  ```
+    }] 
+ ```
  
 # NODEJS BASIC LIBRARIES
-  `const express = require('express');`
-  `const app = express();`
-  
+```
+  const express = require('express');
+  const app = express();
+ ``` 
 # JWT LIBRARIES FOR "EXPRESS"
 ```
   const bodyParser = require('body-parser');
