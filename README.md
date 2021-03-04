@@ -12,8 +12,7 @@ This is a simple example which explains how to use the JWT, the example was  bui
 # TEST
 
 ## Test on https://glitch.com
-[![jwt-authentication on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)]
-https://glitch.com/edit/#!/import/github/mdibenedetto/jwt-authentication
+[![jwt-authentication on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/mdibenedetto/jwt-authentication)
 
 
 ## Test on yur machine
