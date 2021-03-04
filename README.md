@@ -10,6 +10,14 @@ This is a simple example which explains how to use the JWT, the example was  bui
 - RUN `node server` 
 
 # TEST
+
+## Test on https://glitch.com
+[![jwt-authentication on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)]
+https://glitch.com/edit/#!/import/github/mdibenedetto/jwt-authentication
+
+
+## Test on yur machine
+
 - Download Postman which helps to make http request (this optional since you can use any other tool or  use your own client to make request)
 - in Postman:
   - URL: http://localhost:3000/api/prods
