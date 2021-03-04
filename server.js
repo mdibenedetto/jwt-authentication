@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
 app.use(expressJWT({
     secret: SECRET
 }).unless({
-    path: ['/login']
+    path: ['/', '/login']
 }));
 app.use(bodyParser.json());
 
